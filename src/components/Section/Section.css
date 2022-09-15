@@ -1,0 +1,38 @@
+.section__main {
+    width: 100%;
+    height: inherit ; /* 100vh, esto es necesario para el scroll-snap-type */
+    scroll-snap-align: center;
+    color: #EEE;
+    background-color: #262626;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__5 {
+    background-color: #fafafa;
+    color: #0f0f0f;
+    position: relative;
+}
+
+.section__5 .wing {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.section__5 .wing__1 {
+    height: 200px;
+    background-color: red;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+}
+
+.section__5 .wing__2 {
+    height: 160px;
+    background-color: blue;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}

@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Raleway', 'Montserrat', 'Fredoka', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+
+  /* line-height: 24px; */
+  /* font-weight: 400; */
+  /* color: rgba(255, 255, 255, 0.85); */
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  letter-spacing: .5px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
