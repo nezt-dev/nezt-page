@@ -1,0 +1,63 @@
+.section__5 {
+    background-color: #fcfcfc;
+    color: #0f0f0f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.wing {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.wing__wrap__1,
+.wing__wrap__2 {
+    filter: drop-shadow(0 0 .5rem rgba(50, 50, 0, 0.5));
+}
+
+.wing__1 {
+    height: 220px;
+    background-color: red;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+}
+
+.wing__2 {
+    height: 150px;
+    background-color: blue;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+
+.social__container {
+    margin-top: .8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bubbles__container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bubble {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: orange;
+    animation: bubble 5s linear 0 infinite both;
+}
+
+@keyframes bubble {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(600px);
+    }
+}

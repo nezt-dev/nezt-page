@@ -1,1 +1,5 @@
-export * from './Section/Section'
+export * from './Section1'
+export * from './Section2'
+export * from './Section3'
+export * from './Section4'
+export * from './Section5'

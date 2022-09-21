@@ -1,8 +1,23 @@
 .root {
+  min-width: 320px;
   width: 100vw;
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: block mandatory;
+}
+
+.main__section {
+  width: 100%;
+  height: inherit; /* 100vh, esto es necesario para el scroll-snap-type */
+  scroll-snap-align: center;
+  color: #EEE;
+  background-color: #262626;
+  padding: 1.5rem 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .img__container {
@@ -11,4 +26,18 @@
 
 img {
   width: 100%;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
