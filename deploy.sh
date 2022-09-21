@@ -10,7 +10,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-echo 'www.nezt.dev' > nezt.dev
+echo 'www.nezt.dev' > CNAME
 
 git init
 git checkout -b main
