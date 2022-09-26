@@ -1,15 +1,11 @@
 .section__1 {
-    --neon-duration: 4s;
+    --neon-duration: 4.2s;
     --name-duration: 2s;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-/* .iso__container {
-    border: thin solid white;
-} */
 
 .iso__container,
 .logo__container {
@@ -41,7 +37,7 @@
 
 .agency {
     font-size: 3rem;
-    animation: nezt-name var(--name-duration) ease-in-out 6s backwards;
+    animation: nezt-name var(--name-duration) ease-in-out calc(var(--name-duration) + var(--neon-duration)) backwards;
 }
 
 @keyframes iso-margin {
@@ -101,9 +97,3 @@
         transform: translateY(0);
     }
 }
-
-/* @keyframes nezt-agency {
-    from {
-        transform: translateY(-100%);
-    }
-} */
