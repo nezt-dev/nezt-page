@@ -19,19 +19,16 @@
     font-size: 2em;
 }
 
-.employee__stack {
-    order: 1;
-}
-
 .employee__pic {
     align-self: flex-end;
+    justify-self: flex-end;
     width: 100%;
     height: min(100%, 400px);
+    order: 2;
 }
 
 .employee__description {
     padding: 1rem;
-    order: 2;
 }
 
 @media screen and (min-width: 500px) {
